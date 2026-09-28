@@ -8,3 +8,4 @@ node_modules/
 # by default. Remove this line if you want to version-control migration
 # runs/audit trails.
 migration/
+.sf/
