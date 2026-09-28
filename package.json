@@ -1,0 +1,20 @@
+{
+  "name": "hubspot-form-migration",
+  "version": "1.0.0",
+  "description": "Production-ready migration utility for copying HubSpot Forms (Forms API v3) from a source HubSpot portal to a destination HubSpot portal.",
+  "main": "migrate-forms.js",
+  "scripts": {
+    "start": "node migrate-forms.js",
+    "migrate": "node migrate-forms.js",
+    "export-submissions": "node export-submissions.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

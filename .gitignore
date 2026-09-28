@@ -1,0 +1,10 @@
+node_modules/
+
+# Secrets
+.env
+
+# Generated migration output (logs, JSON snapshots, mapping, reports).
+# Regenerated on every run; can contain form content, so it isn't committed
+# by default. Remove this line if you want to version-control migration
+# runs/audit trails.
+migration/
